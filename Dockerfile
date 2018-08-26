@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Pete Houston <contact@petehouston.com>
+MAINTAINER Jerome Erasmus
 
 RUN apk update && apk upgrade
 
