@@ -1,8 +1,8 @@
 # Docker Alpine Core
 
-[![](https://imagelayers.io/badge/petehouston/docker-alpine-core:latest.svg)](https://imagelayers.io/?images=petehouston/docker-alpine-core:latest 'Get your own badge on imagelayers.io')
+[![](https://imagelayers.io/badge/jeromeerasmus/docker-alpine-core:latest.svg)](https://imagelayers.io/?images=jeromeerasmus/docker-alpine-core:latest 'Get your own badge on imagelayers.io')
 
-[![nodesource/node](http://dockeri.co/image/petehouston/docker-alpine-core)](https://registry.hub.docker.com/u/petehouston/docker-alpine-core/)
+[![nodesource/node](http://dockeri.co/image/jeromeerasmus/docker-alpine-core)](https://registry.hub.docker.com/u/jeromeerasmus/docker-alpine-core/)
 
 A really small Docker images with base tools that every developers need to work with.
 
@@ -22,7 +22,7 @@ This is a really small Docker image which based on Alpine Linux which compiles s
 Well, I guess you know that already.
 
 ```
-$ docker pull petehouston/docker-alpine-core
+$ docker pull jeromeerasmus/docker-alpine-core
 ```
 
 ### Execution
@@ -30,13 +30,13 @@ $ docker pull petehouston/docker-alpine-core
 **Via interactive mode**
 
 ```
-$ docker run -it petehouston/docker-alpine-core /bin/bash
+$ docker run -it jeromeerasmus/docker-alpine-core /bin/bash
 ```
 
 **Via Dockerfile**
 
 ```
-FROM petehouston/docker-alpine-core
+FROM jeromeerasmus/docker-alpine-core
 ...
 ```
 
