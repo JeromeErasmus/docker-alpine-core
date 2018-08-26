@@ -43,3 +43,6 @@ FROM jeromeerasmus/docker-alpine-core
 ### Notes
 
 Please share your words. Always welcome :)
+
+### Forked From
+https://github.com/petehouston/docker-alpine-core
